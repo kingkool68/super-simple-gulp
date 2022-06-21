@@ -1,0 +1,14 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    background-color: AliceBlue;
+}
+
+a {
+	color: pink;
+
+	&:hover,
+	&focus {
+		text-decoration: underline;
+	}
+}
